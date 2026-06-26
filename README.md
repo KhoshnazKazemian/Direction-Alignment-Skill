@@ -48,6 +48,25 @@ The goal is to make multiple options visible so teams can make better decisions.
 
 ---
 
+## How to Use This Skill
+
+Use this skill when you have a product problem and want to explore multiple possible solution directions before choosing one.
+
+Start with a short prompt:
+
+```text
+Use the direction-alignment-skill.
+
+Problem:
+New users struggle to create their first workflow and rarely reach activation.
+```
+
+The skill will help you define three distinct directions, compare their trade-offs, and generate a stakeholder-ready comparison experience with lightweight prototypes.
+
+For setup instructions, see [INSTALL.md](./INSTALL.md).
+
+---
+
 ## Example Workflow
 
 ```text
