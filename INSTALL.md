@@ -11,7 +11,7 @@ This guide explains how to install and use `direction-alignment-skill`.
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone(https://github.com/KhoshnazKazemian/Direction-Alignment-Skill)
 ```
 
 Open the folder:
