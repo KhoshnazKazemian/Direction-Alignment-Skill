@@ -78,55 +78,29 @@ New users struggle to create their first workflow and rarely reach activation.
 
 ---
 
-## Example Output
+## Reference Example
 
-### Direction 01 — Describe It, Relay Builds It
+Explore a full reference output of this skill: one problem, three visual directions, interactive prototypes, and supporting direction notes.
 
-Users describe their goal.
+**[Open live demo →](https://khoshnazkazemian.github.io/Direction-Alignment-Skill/)**
 
-Relay generates a proposed workflow plan, then turns it into a node-based workflow.
+**[Example README →](./examples/first-workflow-activation/README.md)**
 
-**Optimizes for**
+Run locally from the repository root:
 
-* Speed
-* Time-to-value
+```bash
+cd examples/first-workflow-activation/app
+npm install
+npm run dev
+```
 
-**Sacrifices**
+Open [http://localhost:5173](http://localhost:5173)
 
-* Control
-* Transparency
-
----
-
-### Direction 02 — Start From Proven Templates
-
-Users begin with industry-specific templates.
-
-AI customizes the template.
-
-**Optimizes for**
-
-* Confidence
-* Reliability
-
-**Sacrifices**
-
-* Flexibility
-
----
-
-### Direction 03 — Build With an Assistant
-
-Users build manually while AI provides suggestions.
-
-**Optimizes for**
-
-* Learning
-* Control
-
-**Sacrifices**
-
-* Setup speed
+| | |
+|---|---|
+| **Problem** | New users at Relay struggle to create their first workflow |
+| **Output** | Comparison landing page, three explorable prototypes, and direction notes |
+| **Documentation** | [directions.md](./examples/first-workflow-activation/directions.md) |
 
 ---
 
@@ -230,34 +204,6 @@ Nothing should distract from it.
 ❌ Full user journey mapping
 
 ❌ Research synthesis
-
----
-
-## Example
-
-Explore a full reference output of this skill — comparison page, three interactive prototypes, and direction documentation.
-
-**[Open live demo →](https://khoshnazkazemian.github.io/Direction-Alignment-Skill/)**
-
-**[Run locally →](./examples/first-workflow-activation/README.md)**
-
-```bash
-cd examples/first-workflow-activation/app
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173)
-
-| | |
-|---|---|
-| **Problem** | New users at Relay struggle to create their first workflow |
-| **Direction 01** | Describe It, Relay Builds It — prompt-first generation |
-| **Direction 02** | Start From Proven Templates — template gallery |
-| **Direction 03** | Build With an Assistant — manual builder + suggestions |
-| **Documentation** | [directions.md](./examples/first-workflow-activation/directions.md) |
-
-Live demo: [khoshnazkazemian.github.io/Direction-Alignment-Skill](https://khoshnazkazemian.github.io/Direction-Alignment-Skill/)
 
 ---
 

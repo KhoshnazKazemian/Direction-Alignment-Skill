@@ -22,6 +22,10 @@ New users at Relay struggle to create their first workflow and leave before reac
 
 Supporting direction notes: [directions.md](./directions.md)
 
+## Live demo
+
+[Open the deployed example](https://khoshnazkazemian.github.io/Direction-Alignment-Skill/)
+
 ## Run locally
 
 From the repository root:
@@ -54,10 +58,6 @@ This example demonstrates the kind of alignment artifact the skill is designed t
 - **Lightweight prototypes** — each direction can be experienced end to end without becoming a full product build
 - **Team discussion support** — the output gives stakeholders something concrete to react to, compare, and choose from
 - **Supporting notes** — `directions.md` captures the rationale and trade-offs behind the prototypes
-
-## Live demo
-
-[Open the deployed example](https://khoshnazkazemian.github.io/Direction-Alignment-Skill/)
 
 ## Deploy
 
