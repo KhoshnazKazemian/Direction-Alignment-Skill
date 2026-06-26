@@ -80,11 +80,11 @@ New users struggle to create their first workflow and rarely reach activation.
 
 ## Example Output
 
-### Direction 01 — AI Builds It For Me
+### Direction 01 — Describe It, Relay Builds It
 
 Users describe their goal.
 
-AI generates the initial workflow automatically.
+Relay generates a proposed workflow plan, then turns it into a node-based workflow.
 
 **Optimizes for**
 
@@ -115,7 +115,7 @@ AI customizes the template.
 
 ---
 
-### Direction 03 — Guided Co-Pilot
+### Direction 03 — Build With an Assistant
 
 Users build manually while AI provides suggestions.
 
@@ -237,6 +237,8 @@ Nothing should distract from it.
 
 Explore a full reference output of this skill — comparison page, three interactive prototypes, and direction documentation.
 
+**[Open live demo →](https://khoshnazkazemian.github.io/Direction-Alignment-Skill/)**
+
 **[Run locally →](./examples/first-workflow-activation/README.md)**
 
 ```bash
@@ -255,7 +257,7 @@ Open [http://localhost:5173](http://localhost:5173)
 | **Direction 03** | Build With an Assistant — manual builder + suggestions |
 | **Documentation** | [directions.md](./examples/first-workflow-activation/directions.md) |
 
-After enabling GitHub Pages (Settings → Pages → GitHub Actions), the live demo URL appears in your repo's Pages settings.
+Live demo: [khoshnazkazemian.github.io/Direction-Alignment-Skill](https://khoshnazkazemian.github.io/Direction-Alignment-Skill/)
 
 ---
 

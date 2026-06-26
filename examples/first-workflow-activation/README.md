@@ -57,8 +57,10 @@ This example demonstrates the kind of alignment artifact the skill is designed t
 
 ## Live demo
 
-After enabling GitHub Pages (see [Deploy](#deploy)), use the Pages URL from your repository settings.
+[Open the deployed example](https://khoshnazkazemian.github.io/Direction-Alignment-Skill/)
 
 ## Deploy
 
-The repo includes a GitHub Actions workflow that builds this app and publishes to GitHub Pages on push to `main`. Enable Pages under **Settings → Pages → Source: GitHub Actions**.
+The repo includes a GitHub Actions workflow that builds this app and publishes to GitHub Pages on push to `main`.
+
+If you fork or reuse this example, enable Pages under **Settings → Pages → Source: GitHub Actions**.
