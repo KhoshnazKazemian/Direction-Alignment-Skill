@@ -1,0 +1,193 @@
+.frame {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  background: #f7f8fa;
+}
+
+.miniSidebar {
+  width: 52px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 6px;
+  background: #fff;
+  border-right: 1px solid #e4e7ec;
+}
+
+.miniLogo {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  background: #2563eb;
+  border-radius: 5px;
+}
+
+.miniNav,
+.miniNavActive {
+  width: 36px;
+  height: 8px;
+  border-radius: 4px;
+  background: #eaecf0;
+}
+
+.miniNavActive {
+  background: #d1e0ff;
+}
+
+.miniMain {
+  flex: 1;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.miniMainSplit {
+  flex: 1;
+  display: flex;
+  min-width: 0;
+}
+
+.miniHeader {
+  font-size: 11px;
+  font-weight: 600;
+  color: #101828;
+}
+
+.promptBox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px;
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.promptLabel {
+  font-size: 9px;
+  font-weight: 500;
+  color: #667085;
+}
+
+.promptText {
+  flex: 1;
+  font-size: 10px;
+  line-height: 1.4;
+  color: #344054;
+  padding: 8px;
+  background: #f9fafb;
+  border: 1px solid #e4e7ec;
+  border-radius: 6px;
+}
+
+.promptBtn {
+  align-self: flex-start;
+  padding: 5px 10px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #fff;
+  background: #2563eb;
+  border-radius: 5px;
+}
+
+.templateGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  flex: 1;
+}
+
+.templateCard {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  border-radius: 7px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #344054;
+}
+
+.templateCard:first-child {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px #2563eb;
+}
+
+.templateIcon {
+  width: 100%;
+  height: 28px;
+  background: linear-gradient(135deg, #eff6ff 0%, #f2f4f7 100%);
+  border-radius: 4px;
+}
+
+.builderArea {
+  flex: 1;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.step {
+  padding: 8px 10px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #344054;
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  border-radius: 6px;
+}
+
+.stepLine {
+  width: 2px;
+  height: 10px;
+  margin-left: 18px;
+  background: #d0d5dd;
+}
+
+.stepAdd {
+  padding: 6px 10px;
+  font-size: 9px;
+  color: #667085;
+  border: 1px dashed #d0d5dd;
+  border-radius: 6px;
+}
+
+.assistantPanel {
+  width: 38%;
+  padding: 12px;
+  background: #fff;
+  border-left: 1px solid #e4e7ec;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.assistantTitle {
+  font-size: 9px;
+  font-weight: 600;
+  color: #101828;
+}
+
+.suggestion {
+  padding: 7px 9px;
+  font-size: 8px;
+  color: #344054;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 5px;
+}
